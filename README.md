@@ -1,3 +1,68 @@
+
+# KeyGenPy – Professioneller Passwort-Generator
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![PyQt6](https://img.shields.io/badge/PyQt-6.6+-green.svg)
+
+**KeyGenPy** ist ein leistungsstarker Passwort-Generator mit einer übersichtlichen Dark-Mode-GUI. Er erzeugt hochsichere Passwörter mit einstellbarer Länge, Zeichenzusammensetzung und Sonderzeichen-Häufigkeit. Zusätzlich bietet er einen Verlauf, Export-Funktionen und macOS-iCloud-Integration.
+
+<img width="910" height="759" alt="screenshot" src="https://github.com/user-attachments/assets/f4c52b64-4e3d-4d64-a72e-a067469ac0f4" />
+
+---
+
+## ✨ Features
+
+- **Individuelle Passwort-Einstellungen**  
+  - Länge von 4 bis 2048 Zeichen  
+  - Groß-/Kleinbuchstaben, Ziffern, Sonderzeichen  
+  - Ausschluss bestimmter Zeichen (z. B. `0O1lI`)  
+  - Gruppierung mit Trennzeichen (z. B. `ABCD-1234-EFGH`)  
+
+- **Sonderzeichen-Steuerung**  
+  Wählen Sie die Häufigkeit der Sonderzeichen:  
+  - `viele (Standard)` – gleichmäßige Verteilung  
+  - `wenige` – ca. 10 % Sonderzeichen  
+  - `einzelne` – ca. 5 % Sonderzeichen  
+  - `eins pro Gruppe` – genau ein Sonderzeichen pro Gruppe (bei Gruppierung > 0)  
+  - `nur eins` – genau ein Sonderzeichen im gesamten Passwort  
+
+- **Entropie- und Stärke-Anzeige**  
+  Echtzeit-Berechnung der Entropie (in Bit) und farbige Stärke-Balken.
+
+- **Verlauf**  
+  Alle generierten Passwörter werden mit Zeitstempel angezeigt – Export als JSON, TXT oder CSV möglich
+
+- **Automatisches Kopieren**  
+  Optional: Passwort direkt nach der Generierung in die Zwischenablage kopieren und in den Verlauf übernehmen.
+
+- **macOS iCloud-Schlüsselbund-Export**  
+  Erzeugt eine Apple-kompatible CSV-Datei für den Import in die macOS-Passwörter-App (für Websites und Apps).
+
+- **Dark Theme & Tastaturkürzel**  
+  Modernes, augenschonendes Design, `Ctrl+G` für Neu-Generierung, `Ctrl+Shift+C` für Kopieren.
+
+---
+
+🤝 Beitrag
+
+Beiträge sind willkommen! Bitte erstellen Sie bei Änderungswünschen ein Issue oder einen Pull-Request.
+
+---
+
+📞 Kontakt
+
+Bei Fragen oder Anregungen können Sie ein Issue auf GitHub eröffnen.
+
+---
+
+Viel Spaß mit KeyGenPy – sichere Passwörter leicht gemacht! 🔐
+
+```
+
+---
+
+# 📄 **LICENSE
+
 MIT-Lizenz
 
 Copyright (c) 2026 BinhDiez64
@@ -55,3 +120,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This software uses PyQt6, which is Copyright (c) Riverbank Computing Limited.
+
+PyQt5 is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+PyQt6 is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+You should have received a copy of the GNU General Public License along with
+PyQt5. If not, see <http://www.gnu.org/licenses/>.
+
+
+

@@ -1,0 +1,43 @@
+KeyGenPy Öffnen / verwenden
+
+Wenn die Gatekeeper Warnung in macOS kommt, dass die App nicht von Apple notarisiert wurde oder die Notarisierung nicht überprüft werden konnte. Wenn du der Quelle der App vertraust, kannst du sie trotzdem öffnen.
+
+Sorry, aber für eine Notarisierung würden mir jährliche Kosten entstehen. 
+Da ich mit dieser App keine Einnahmen erziele, verzichte ich darauf.
+
+Die gute Nachricht:
+Du kannst die App dennoch öffnen.
+
+Methode 1: Über die Systemeinstellungen (empfohlen)
+
+1. Versuche, KeyGenPy.app einmal zu öffnen.
+2. Die Warnung erscheint – klicke auf fertig oder Abbrechen. (Nicht in den Papierkorb legen)
+3. Öffne Systemeinstellungen → Datenschutz & Sicherheit.
+4. Scrolle nach unten. Dort sollte eine Meldung erscheinen wie:
+    „KeyGenPy.app wurde blockiert …“
+6. Bestätige den Dialog mit Öffnen.
+
+Methode 2: Rechtsklick
+
+1. Im Finder die App auswählen.
+2. Rechtsklick (oder Ctrl-Klick) → Öffnen.
+3. Im folgenden Dialog erneut Öffnen wählen.
+
+Dadurch wird die App dauerhaft als vertrauenswürdig markiert.
+
+Wenn es keinen Button „Dennoch öffnen“ gibt
+
+Seit neueren macOS-Versionen kann die Meldung manchmal strenger sein. Dann kannst du das Quarantäne-Attribut im Terminal entfernen:
+
+xattr -d com.apple.quarantine /Pfad/zu/KeyGenPy.app
+
+Oder, wenn die App z. B. im Programme-Ordner liegt:
+
+xattr -d com.apple.quarantine "/Applications/KeyGenPy.app"
+
+Falls die App in deinem Downloads-Ordner liegt:
+
+xattr -d com.apple.quarantine "$HOME/Downloads/KeyGenPy.app"
+
+Anschließend die App erneut starten.
+
