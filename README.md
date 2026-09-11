@@ -43,25 +43,22 @@
 
 ---
 
-🤝 Beitrag
+<details>
+<summary>📞 Kontakt</summary>
 
-Beiträge sind willkommen! Bitte erstellen Sie bei Änderungswünschen ein Issue oder einen Pull-Request.
-
----
-
-📞 Kontakt
 
 Bei Fragen oder Anregungen können Sie ein Issue auf GitHub eröffnen.
+</details>
 
 ---
 
-Viel Spaß mit KeyGenPy – sichere Passwörter leicht gemacht! 🔐
+## Viel Spaß mit KeyGenPy – sichere Passwörter leicht gemacht! 🔐
 
-```
 
 ---
 
-# 📄 **LICENSE
+<details>
+<summary>🛡️ Lizenzen / Licenses</summary>
 
 MIT-Lizenz
 
@@ -137,6 +134,80 @@ details.
 
 You should have received a copy of the GNU General Public License along with
 PyQt5. If not, see <http://www.gnu.org/licenses/>.
+
+</details>
+
+---
+
+<details>
+<summary>🔒 macOS Gatekeeper_Info</summary>
+
+KeyGenPy ist derzeit nicht mit einem Apple-Developer-Zertifikat signiert.
+
+Beim ersten Start kann macOS Gatekeeper die Ausführung blockieren.
+
+1. App einmal öffnen.
+2. Warnung schließen.
+3. **Systemeinstellungen → Datenschutz & Sicherheit**
+4. Dort ganz nach unten bis zur Warnung "KeyGenPy wurde blockiert..." scrollen.
+5. **„Dennoch öffnen“** auswählen
+6. Wenn noch einmal gewarnt wird: erneut **„Dennoch öffnen“** auswählen und mit Passwort bestätigen.
+
+### Alternativ:
+
+Seit neueren macOS-Versionen kann die Meldung manchmal strenger sein oder es Wenn es keinen Button „Dennoch öffnen“ gibt
+
+Dann kannst du das Quarantäne-Attribut im Terminal entfernen:
+
+🍎 macOS Terminal
+
+xattr -d com.apple.quarantine /Pfad/zu/KeyGenPy.app
+
+Oder, wenn die App z. B. im Programme-Ordner liegt:
+
+xattr -d com.apple.quarantine "/Applications/KeyGenPy.app"
+
+Falls die App in deinem Downloads-Ordner liegt:
+
+xattr -d com.apple.quarantine "$HOME/Downloads/KeyGenPy.app"
+
+> Den Pfad zur Datei ggf. anpassen.
+
+Anschließend die App erneut starten.
+
+</details>
+
+---
+
+<details>
+<summary>🖥️ Download-Info</summary>
+
+### Download-Versione
+
+| Suffix | Betriebssystem |
+|--------|-----------------|
+| `_macOS_as` | Apple Silicon (M1–M4) |
+| `_macOS_intel` | Intel Macs |
+| `_win` | Windows x64 |
+
+> Windows on ARM wird derzeit nicht unterstützt / not supported
+
+### Extract 7z-Archive
+
+| Betriebssystem | Empfohlene App |
+|---------------|----------------|
+| 🍎 macOS | **Keka** – <https://www.keka.io/> |
+| 🪟 Windows | **7-Zip** – <https://www.7-zip.org/> |
+
+</details>
+
+
+<details>
+<summary>🔑 7z Passwort</summary>
+
+**BinhDiez**
+
+</details>
 
 
 
