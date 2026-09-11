@@ -155,7 +155,9 @@ Beim ersten Start kann macOS Gatekeeper die Ausführung blockieren.
 
 ### Alternativ:
 
-Seit neueren macOS-Versionen kann die Meldung manchmal strenger sein oder es Wenn es keinen Button „Dennoch öffnen“ gibt
+Seit neueren macOS-Versionen kann die Meldung manchmal strenger sein 
+
+oder wenn es keinen Button „Dennoch öffnen“ gibt
 
 Dann kannst du das Quarantäne-Attribut im Terminal entfernen:
 
