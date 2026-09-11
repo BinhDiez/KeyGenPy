@@ -137,10 +137,10 @@ PyQt5. If not, see <http://www.gnu.org/licenses/>.
 
 </details>
 
----
+
 
 <details>
-<summary>🔒 macOS Gatekeeper_Info</summary>
+<summary>🔒 macOS Gatekeeper-Info</summary>
 
 KeyGenPy ist derzeit nicht mit einem Apple-Developer-Zertifikat signiert.
 
@@ -177,7 +177,6 @@ Anschließend die App erneut starten.
 
 </details>
 
----
 
 <details>
 <summary>🖥️ Download-Info</summary>
