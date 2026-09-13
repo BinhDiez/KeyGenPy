@@ -1,4 +1,3 @@
-
 # KeyGenPy – Professioneller Passwort-Generator
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
@@ -189,9 +188,8 @@ Anschließend die App erneut starten.
 |--------|-----------------|
 | `_macOS_as` | Apple Silicon (M1–M4) |
 | `_macOS_intel` | Intel Macs |
-| `_win` | Windows x64 |
 
-> Windows on ARM wird derzeit nicht unterstützt / not supported
+> Windows wird derzeit nicht unterstützt / not supported
 
 ### Extract 7z-Archive
 
